@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: url("./assests/images/bg\ image\ 1.png");
+  background: url("./assests/images/bg\ image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -438,9 +438,15 @@ textarea {
     width: 300px;
   }
 
+  #hero{
+    display: flex;
+    justify-content: center;
+  }
+
   #Home {
     height: auto;
     min-height: 70vh;
+    display: flex;
   }
 
   .profile-container {
