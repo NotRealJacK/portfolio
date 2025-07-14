@@ -479,10 +479,12 @@ textarea {
   .profile {
     height: 100px;
     padding-left: 0;
+    padding-top: 20px;
   }
 
   .container_mouse {
     padding-top: 60px;
+    visibility: hidden;
   }
 
   .box {
