@@ -9,17 +9,23 @@ html {
 }
 
 body {
-  background: url("./assests/images/background.jpg");
+  background: url("./assests/images/main-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-h1,h2,h3,h5 {
+h1,
+h2,
+h3,
+h5 {
   font-family: "Roboto", sans-serif;
 }
 
-p,a,span,li {
+p,
+a,
+span,
+li {
   font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -250,11 +256,12 @@ section {
   backdrop-filter: blur(20px);
 }
 
-.globe a:hover{
+.globe a:hover {
   color: white;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 10px rgba(0, 119, 255, 0.349);}
+  box-shadow: 0 0 10px rgba(0, 119, 255, 0.349);
+}
 
 #Projects .animated-button {
   margin-top: 70px;
@@ -283,7 +290,8 @@ section {
   transform: translate(-60%, -60%);
   width: 20px;
   height: 20px;
-  background-color: #113678;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -295,7 +303,7 @@ section {
 }
 
 .animated-button:hover {
-  box-shadow: 0 0 0 5px #2195f360;
+  border: 1px solid rgba(255, 255, 255, 0.222);
   color: #ffffff;
 }
 
