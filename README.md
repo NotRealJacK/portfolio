@@ -27,10 +27,4 @@ This project showcases my skills, projects, and background in a clean, responsiv
 
 ---
 
-Clone the repo:
-
-```bash
-git clone https://github.com/your-username/your-portfolio.git
-```
-
 Built with ❤️ by [NotRealJack]
