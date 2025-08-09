@@ -78,7 +78,7 @@ main {
   background: grey;
   opacity: 0.1;
   border-radius: 100%;
-  position: fixed;
+  position: absolute;
   top: 1px;
   right: 1px;
   z-index: -10;
