@@ -427,6 +427,13 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  body {
+    background: url("./assests/images/mobile-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   header {
     margin-top: 20px;
   }
