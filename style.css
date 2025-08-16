@@ -72,18 +72,6 @@ main {
   padding: 60px 0;
 }
 
-.cricle {
-  height: 600px;
-  width: 600px;
-  background: grey;
-  opacity: 0.1;
-  border-radius: 100%;
-  position: fixed;
-  top: 1px;
-  right: 1px;
-  z-index: -10;
-}
-
 section {
   scroll-margin-top: 80px;
 }
@@ -96,9 +84,11 @@ section {
   height: 350px;
 }
 
-.profile {
-  height: 250px;
-  padding-left: 50px;
+.profile img {
+  width: 300px; /* make it square */
+  height: 300px; /* same as width */
+  border-radius: 50%; /* perfect circle */
+  object-fit: cover;
 }
 
 .mouse-btn {
@@ -461,11 +451,6 @@ textarea {
 
   main {
     padding: 30px 0;
-  }
-
-  .cricle {
-    height: 300px;
-    width: 300px;
   }
 
   #hero {
