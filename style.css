@@ -133,7 +133,7 @@ section {
   align-items: center;
 }
 
-.skill-heading{
+.skill-heading {
   font-weight: 350;
 }
 
@@ -442,6 +442,12 @@ textarea {
 }
 
 @media (max-width: 1199px) {
+  body {
+    background: url("./assests/images/background-sm.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
   header {
     margin-top: 20px;
   }
@@ -495,9 +501,8 @@ textarea {
   }
 
   .profile > img {
-   height: 300px;
-   width: 300px;
-    
+    height: 300px;
+    width: 300px;
   }
 
   .container_mouse {
@@ -510,33 +515,51 @@ textarea {
   }
 
   @keyframes growLine {
-  from {
-    height: 0;
+    from {
+      height: 0;
+    }
+    to {
+      height: 700px;
+    }
   }
-  to {
-    height: 700px;
-  }
-}
 
-  .dot-2 { top: 273px; left: -9px; }
-  .dot-3 { top: 625px; left: -9px; }
+  .dot-2 {
+    top: 273px;
+    left: -9px;
+  }
+  .dot-3 {
+    top: 625px;
+    left: -9px;
+  }
 
   .skill-item {
     width: 204px;
     height: 60px;
   }
-  .skill-item > img { height: 30px; }
-  .skill-item > span { font-size: 15px; }
-  .skill-box { gap: 20px; }
+  .skill-item > img {
+    height: 30px;
+  }
+  .skill-item > span {
+    font-size: 15px;
+  }
+  .skill-box {
+    gap: 20px;
+  }
 
-  #Projects { height: auto; min-height: 80vh; padding-top: 100px;}
+  #Projects {
+    height: auto;
+    min-height: 80vh;
+    padding-top: 100px;
+  }
 
   .custom-card {
     margin-bottom: 20px;
     max-width: 100%;
   }
 
-  #Contact { margin-top: 40px; }
+  #Contact {
+    margin-top: 40px;
+  }
 
   .contact-box {
     width: 95%;
@@ -556,23 +579,32 @@ textarea {
     margin-top: 5px;
   }
 
-  .page-heading { font-size: 24px; }
+  .page-heading {
+    font-size: 24px;
+  }
 }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background: url("./assests/images/background-sm.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-    .profile {
-      height: 150px;
-    }
+  .profile {
+    height: 150px;
+  }
 
-    .profile img {
-      width: 300px;
-      height: 300px;
-    }
+  .profile img {
+    width: 300px;
+    height: 300px;
+  }
 
-    .vertical-line { height: 680px; }
+  .vertical-line {
+    height: 680px;
+  }
 
-    @keyframes growLine {
+  @keyframes growLine {
     from {
       height: 0;
     }
@@ -581,24 +613,39 @@ textarea {
     }
   }
 
-    .dot-2 { top: 273px; left: -9px; }
-    .dot-3 { top: 625px; left: -9px; }
-
-    .skill-item {
-      width: 204px;
-      height: 60px;
-    }
-    .skill-item > img { height: 30px; }
-    .skill-item > span { font-size: 15px; }
-
-  
-    .contact-box { padding: 20px 15px; }
-    .contact-box img {
-      width: 30px;
-      height: 30px;
-    }
-
-    .tags { font-size: 12px; padding: 3px 6px; }
-    .profile-container h1 { font-size: 1.8rem; }
+  .dot-2 {
+    top: 273px;
+    left: -9px;
+  }
+  .dot-3 {
+    top: 625px;
+    left: -9px;
   }
 
+  .skill-item {
+    width: 204px;
+    height: 60px;
+  }
+  .skill-item > img {
+    height: 30px;
+  }
+  .skill-item > span {
+    font-size: 15px;
+  }
+
+  .contact-box {
+    padding: 20px 15px;
+  }
+  .contact-box img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tags {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .profile-container h1 {
+    font-size: 1.8rem;
+  }
+}
