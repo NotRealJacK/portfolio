@@ -5,12 +5,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jithin Abraham</title>
+
+    <meta name="description"
+        content="Portfolio of Jithin Abraham - Frontend Web Developer skilled in HTML, CSS, JavaScript, Bootstrap, and responsive design.">
+
+
+    <meta name="keywords" content="Jithin Abraham, web developer, frontend developer, HTML, CSS, JavaScript, portfolio">
+
+    <meta name="author" content="Jithin Abraham">
+
+    <meta name="robots" content="index, follow">
+
+
+    <meta property="og:title" content="Jithin Abraham | Web Developer Portfolio">
+    <meta property="og:description"
+        content="Portfolio of Jithin Abraham - Frontend Web Developer skilled in HTML, CSS, JavaScript, Bootstrap, and responsive design.">
+    <meta property="og:image" content="https://jithinabraham.vercel.app/assets/profile.jpg">
+
+    <meta property="og:url" content="https://jithinabraham.vercel.app">
+    <meta property="og:type" content="website">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jithin Abraham | Web Developer Portfolio">
+    <meta name="twitter:description"
+        content="Portfolio of Jithin Abraham - Frontend Web Developer skilled in HTML, CSS, JavaScript, Bootstrap, and responsive design.">
+    <meta name="twitter:image" content="https://jithinabraham.vercel.app/assets/profile.jpg">
+
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,10git 0..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
     <link rel="icon" href="./assests/images/profile-user.png">
@@ -28,8 +55,8 @@
                     <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto gap-md-5">
-                        <li class="nav-item"><a class="nav-links" href="#Home">Home</a></li>
+                    <ul class="navbar-nav ms-auto gap-md-5 pe-5">
+                        <li class="nav-item"><a class="nav-links" href="#head-main">Home</a></li>
                         <li class="nav-item"><a class="nav-links" href="#Skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-links" href="#Projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-links" href="#Contact">Contact</a></li>
@@ -39,11 +66,10 @@
         </nav>
     </header>
 
-    <main>
-        <div class="cricle"></div>
+    <main id="head-main">
 
         <section id="hero" class="d-flex justify-content-lg-center">
-            <div id="Home" class="container row d-flex justify-content-lg-center align-items-lg-center">
+            <div id="Home" class="container row d-flex justify-content-center align-items-center">
                 <div
                     class="col-lg-5 col-md-6 col-12 profile-container d-flex flex-column justify-content-center align-items-center text-center">
                     <h1 class="text-white fw-bold mb-0">Jithin Abraham</h1>
@@ -52,9 +78,10 @@
                         responsive and user-friendly websites. I specialize in HTML, CSS, and Bootstrap, and I'm
                         currently expanding my skills in JavaScript and modern frameworks.</p>
                 </div>
-                <div class="col-lg-5 col-md-6 col-12 px-5 text-center">
-                    <img class="profile img-fluid" src="./assests/images/me.jpg" alt="user-male-circle" />
+                <div class="profile col-lg-5 col-md-6 col-12 text-center">
+                    <img src="./assests/images/me.profile.png" alt="user-male-circle" />
                 </div>
+
                 <div class="container_mouse">
                     <span class="mouse-btn">
                         <span class="mouse-scroll"></span>
@@ -67,31 +94,94 @@
         </section>
 
         <section id="Skills">
-            <div class="skills-wrapper text-white text-center mt-5 pt-5">
-                <div class="container">
-                    <h3 class="page-heading">Skills</h3>
-                </div>
+            <div class="container ">
+                <h3 class="text-center text-white pb-5">Skill</h3>
+                <div class="container-main">
+                    <div class="vertical-line">
+                        <div class="dot"></div>
+                        <div class="dot-2"></div>
+                        <div class="dot-3"></div>
+                    </div>
+                    <div class="Frontend px-5">
+                        <div>
 
-                <div class="center-content d-flex justify-content-center align-items-center">
-                    <div class="container">
-                        <div class="row justify-content-center align-items-center gy-4">
-                            <div class="col-lg-5 col-md-6 col-12">
-                                <div class="box text-white rounded text-center">
-                                    <p class="text-white">Frontend Development</p>
-                                    <div class="frontend-img d-flex gap-3 justify-content-center mb-3 flex-wrap">
-                                        <div><img src="./assests/images/tool-icon/html.png" alt="HTML"></div>
-                                        <div><img src="./assests/images/tool-icon/css.png" alt="CSS"></div>
-                                        <div><img src="./assests/images/tool-icon/bootstrap.png" alt="Bootstrap"></div>
-                                        <div><img src="./assests/images/tool-icon/javascript.png" alt="JavaScript">
-                                        </div>
-                                    </div>
-                                    <p class="text-white">Tools & Platforms</p>
-                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
-                                        <div><img src="./assests/images/tool-icon/canva.png" alt="Canva"></div>
-                                        <div><img src="./assests/images/tool-icon/vscode.png" alt="VS Code"></div>
-                                        <div><img src="./assests/images/tool-icon/github.png" alt="GitHub"></div>
-                                    </div>
-                                </div>
+                            <h4 class="skill-heading text-white fs-4">Frontend</h4>
+                        </div>
+                        <div class="skill-box row row-cols-2 py-5">
+
+                            <div class="skill-item  col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/html.png" alt="" height="50px">
+                                <span>Html</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/css.png" alt="" height="50px">
+                                <span>Css</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/bootstrap.png" alt="" height="50px">
+                                <span>Bootstrap</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/javascript.png" alt="" height="50px">
+                                <span>JavaScript</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="Tools-Platforms  px-5">
+                        <div>
+
+                            <h4 class="skill-heading text-white fs-4">Tools & Platforms</h4>
+                        </div>
+                        <div class="skill-box row py-5">
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/vscode.png" alt="" height="50px">
+                                <span>Vs code</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/github.png" alt="" height="50px">
+                                <span>Github</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/git.png" alt="" height="50px">
+                                <span>Git</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/figma.png" alt="" height="50px">
+                                <span>Figma</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/canva.png" alt="" height="50px">
+                                <span>Canva</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="CurrentlyLearning px-5">
+                        <div>
+
+                            <h4 class="skill-heading text-white fs-4">Currently Learning</h4>
+                        </div>
+                        <div class="skill-box row py-5">
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/javascript.png" alt="" height="50px">
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="skill-item col-lg-2 col-md-3 col-5">
+                                <img src="./assests/images/tool-icon/react.png" alt="">
+                                <span>React</span>
                             </div>
                         </div>
                     </div>
@@ -105,8 +195,8 @@
                     <h3 class="page-heading">Projects</h3>
                 </div>
 
-                <div class="container d-flex flex-wrap justify-content-center gap-5 mb-4">
-                    <div class="custom-card text-white text-center col-lg-3 col-md-5 col-sm-8 col-10"
+                <div class="container d-flex flex-wrap justify-content-center gap-5 pt-5 mb-4">
+                    <div class="custom-card text-white text-center col-lg-3 col-md-5 col-sm-8 col-10 "
                         style="width: 19rem; height: 420px;">
                         <div class="card-img-wrapper">
                             <img src="./assests/images/Project-img/Cheers-catering.png" alt="Cheers Catering"
@@ -212,7 +302,7 @@
 
 
         <section id="Contact" class="text-white">
-            <div class="container d-flex justify-content-center">
+            <div class="main-contact container d-flex justify-content-center">
                 <div class="contact-box text-center text-white">
                     <h3 class="mb-4 fs-4">Get in Touch</h3>
 
@@ -290,5 +380,6 @@
         crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
+<script src="./script.js"></script>
 
 </html>
